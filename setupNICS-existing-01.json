@@ -51,7 +51,7 @@
       "properties": {
         "ipConfigurations": [
           {
-            "name": "cc1-pr-pan01-mgmt-ipconfig",
+            "name": "cc1-pr-psg-pan01-mgmt-ipconfig",
             "properties": {
               "privateIPAllocationMethod": "Static",
 			  "privateIpAddress": "10.160.129.11",
@@ -75,7 +75,7 @@
       "enableIPForwarding": true,
         "ipConfigurations": [
           {
-            "name": "cc1-pr-pan01-untrust-ipconfig",
+            "name": "cc1-pr-psg-pan01-untrust-ipconfig",
             "properties": {
               "privateIPAllocationMethod": "Static",
 			  "privateIpAddress": "10.160.130.11",
@@ -96,7 +96,7 @@
         "enableIPForwarding": true,
         "ipConfigurations": [
           {
-            "name": "cc1-pr-pan01-trust-ipconfig",
+            "name": "cc1-pr-psg-pan01-trust-ipconfig",
             "properties": {
               "privateIPAllocationMethod": "Static",
 			  "privateIpAddress": "10.160.131.11",
